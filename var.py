@@ -32,7 +32,23 @@ abc = 5
 result = h + abc
 print(result)
 result = h - abc
+
 print(result)
+my_list = [1, 2.5, True, "Hello", [1, 2, 3], (4, 5, 6), {"name": "Olha", "age": 48}, {"Olha", "Valentin", "Andrii"}, None]
+print(my_list)
+
+my_dict = {
+    "integer": 100,
+    "float": 3.8,
+    "boolean": False,
+    "string": "Hallo",
+    "list": [1, 2, 3, 4, 5],
+    "tuple": (6, 7, 8),
+    "dictionary": {"name": "Olha", "age": 49},
+    "set": {"Olha", "Valentin", "Andrii"},
+    "none": None
+}
+print(my_dict)
 
 
 
