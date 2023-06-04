@@ -22,4 +22,21 @@ fr: frozenset = {1, 2, 'Olha', True, False}  # Тоже самое, что и м
 # Mapping Types
 d: dict = {'a': 1, 'b': 2}  # Это словарь. Структра - ключ:значение
 
-print(b1)
+x = 2
+y = 3
+result = (x+y)**2
+print(result)
+
+h = 10
+abc = 5
+result = h + abc
+print(result)
+result = h - abc
+print(result)
+
+
+
+
+
+
+
