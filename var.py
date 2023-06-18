@@ -58,7 +58,7 @@ my_integer = 10  # Использование форматирования ст�
 my_string = f"Number: {my_integer}"
 print(my_string)
 
-z = -5
+z = 5
 
 if z > 0:
     print("z положительное число")
@@ -66,6 +66,62 @@ elif z < 0:
     print("z отрицательное число")
 else:
     print("z равно нулю")
+
+
+m = 5
+n = 5
+
+
+def compare_numbers(n, m):
+    if n > m:
+        print(f"{n} больше, чем {m}")
+    elif n < m:
+        print(f"{n} меньше, чем{m}")
+    else:
+        print(f"{m} равно {n}")
+
+
+compare_numbers(m, n)
+
+
+q = 49
+w = 49
+e = 20
+r = 10
+t = 50
+
+
+def compare_sister(q, w, e, r, t,):
+    if q > w and e > r or e > t:
+        print("Лена старше Оли")
+    elif q < w and e > r or e > t:
+        print("Оля младше Лены")
+    elif q == w:
+        print("Это незнакомец")
+
+
+compare_sister(q, w, e, r, t, )
+
+def kto_est_kto(q, w, e, r, t):
+    if q-w ==4 or e > r:
+        print("Это семья Богаченко")
+    elif  q-w != 4 and r > e or t >e:
+        print("Это семья Короп")
+    else:
+        print("Незнакомец")
+kto_est_kto(q, w, e, r, t,)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
