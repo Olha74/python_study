@@ -113,6 +113,18 @@ kto_est_kto(q, w, e, r, t,)
 
 
 
+print("Мое имя - Olga")
+
+
+k = 7
+l = 10
+sum = k + l
+print(sum)
+
+
+
+name = input("Введите ваше имя: ")
+print(f"Привет, {name}!")
 
 
 
