@@ -1,5 +1,5 @@
 s = input("Vvedite stroku  ")
-if s.isalpha() and s.islower():
+if s.isalpha():
     print(s.upper())
 elif s.isdigit():
     print(int(s))
